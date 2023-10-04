@@ -66,7 +66,7 @@ function StoryGrid() {
 
           <Grid container spacing={2} ref={gridRef}>
             {stories.map((story) => (
-              <Grid item xs={12} sm={6} md={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <Grid m={2} item xs={12} sm={6} md={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Story id={`story-${generateId(story.tag)}`} title={story.title} content={story.content} url={story.url} />
               </Grid>
             ))}
