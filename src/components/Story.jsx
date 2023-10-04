@@ -16,7 +16,7 @@ const Story = ({id, title, content, url}) => {
       '&:hover': {
         borderColor: 'lightblue',
         boxShadow: '0 0 10px rgba(0, 0, 255, 0.5)', // Bloom effect on hover
-        transform: 'scale(1.05)',
+        transform: 'scale(1.08)',
       },
       '&.Mui-expanded': {
         borderColor: 'lightblue',
